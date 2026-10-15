@@ -31,7 +31,7 @@ const PLANS: Plan[] = [
     blurb: "For production GIS integrations.",
     features: [
       "50,000 API requests / mo",
-      "25,000 WS messages / mo",
+      "Webhook & email alerts",
       "Unlimited API keys",
       "GeoJSON · MVT · WFS",
       "Email support",
@@ -45,7 +45,7 @@ const PLANS: Plan[] = [
     blurb: "For high-volume and team usage.",
     features: [
       "500,000 API requests / mo",
-      "250,000 WS messages / mo",
+      "Hourly automated re-scans",
       "Team access controls",
       "99.9% uptime SLA",
       "Priority support",

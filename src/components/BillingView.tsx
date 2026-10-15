@@ -39,7 +39,7 @@ export function BillingView() {
         <p className="mb-4 text-sm font-medium text-text">This billing cycle</p>
         <div className="space-y-4">
           <Progress label="API requests" value={23220} max={50000} showValue />
-          <Progress label="WebSocket messages" value={8600} max={25000} showValue />
+          <Progress label="Encroachment alerts" value={128} max={500} showValue />
         </div>
       </Card>
 

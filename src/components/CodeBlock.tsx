@@ -55,7 +55,7 @@ export function CodeBlock({ code, language, className }: CodeBlockProps) {
   return (
     <div
       className={cn(
-        "overflow-hidden rounded-radius-lg border border-border bg-bg-surface",
+        "code-display overflow-hidden rounded-radius-lg border border-border bg-bg-surface",
         className,
       )}
     >

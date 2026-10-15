@@ -18,3 +18,12 @@
   height: 0;
   display: none; /* Chrome, Safari, newer Edge */
 }
+
+/* Code displays render in Consolas. The class selector is needed to beat
+   Stratum's `* { font-family: var(--font-sans) }`, which otherwise wins on the
+   syntax-highlighter's token <span>s (they carry no inline font-family). */
+.code-display,
+.code-display * {
+  font-family: Consolas, "Cascadia Mono", ui-monospace, SFMono-Regular, Menlo,
+    monospace !important;
+}

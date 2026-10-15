@@ -23,10 +23,10 @@ export const TEAM: TeamMember[] = [
 ];
 
 export const LIMIT_OPTIONS = [
-  { value: "100 API + 100 WS", label: "100 API + 100 WS" },
-  { value: "1,000 API", label: "1,000 API" },
-  { value: "2,000 API + 4,000 WS", label: "2,000 API + 4,000 WS" },
-  { value: "5,000 API + 5,000 WS", label: "5,000 API + 5,000 WS" },
+  { value: "1,000 requests / mo", label: "1,000 requests / mo" },
+  { value: "10,000 requests / mo", label: "10,000 requests / mo" },
+  { value: "50,000 requests / mo", label: "50,000 requests / mo" },
+  { value: "250,000 requests / mo", label: "250,000 requests / mo" },
   { value: "Unlimited", label: "Unlimited" },
 ];
 
@@ -36,7 +36,7 @@ export const INITIAL_KEYS: ApiKey[] = [
     name: "Secret key 1",
     secret: "sk_live_8f2a4c9e1b7d6a3f0e5c2133",
     access: ["john"],
-    limit: "100 API + 100 WS",
+    limit: "1,000 requests / mo",
     created: "Sep 9, 2024",
   },
   {
@@ -44,7 +44,7 @@ export const INITIAL_KEYS: ApiKey[] = [
     name: "Secret key 2",
     secret: "sk_live_3d9b7e2a6c1f8049ab2e4523",
     access: ["john"],
-    limit: "1,000 API",
+    limit: "10,000 requests / mo",
     created: "Sep 16, 2024",
   },
   {
@@ -52,7 +52,7 @@ export const INITIAL_KEYS: ApiKey[] = [
     name: "Secret key 3",
     secret: "sk_live_7a1c5f93e0b86d24cf9ed528",
     access: ["jane"],
-    limit: "2,000 API + 4,000 WS",
+    limit: "50,000 requests / mo",
     created: "Oct 2, 2024",
   },
   {
@@ -60,7 +60,7 @@ export const INITIAL_KEYS: ApiKey[] = [
     name: "Secret key 4",
     secret: "sk_live_0b6e3a8d2c7f14590ae5x01",
     access: ["john", "jane", "joseph"],
-    limit: "5,000 API + 5,000 WS",
+    limit: "250,000 requests / mo",
     created: "Nov 1, 2024",
   },
 ];
